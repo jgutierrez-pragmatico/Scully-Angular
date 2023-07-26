@@ -1,0 +1,14 @@
+<app-layout title="The Best Technology Products are Here 😎">
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic a expedita aspernatur maiores tempore iusto
+        dolores voluptatibus asperiores id error, numquam deleniti alias.
+    </p>
+    <h3>
+        Products
+    </h3>
+    <div class="products-list">
+        <div *ngFor="let product of products?.items" class="products-list__item">
+            <app-product-card [product]="product"></app-product-card>
+        </div>
+    </div>
+</app-layout>
