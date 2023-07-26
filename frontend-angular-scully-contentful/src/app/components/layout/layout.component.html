@@ -1,0 +1,34 @@
+<div class="layout">
+    <nav style="background-color: #34495E;">
+        <div class="nav-wrapper container">
+            <a [routerLink]="['/']" class="brand-logo">
+                💻 Best Technology
+            </a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li>
+                    <a href="#" class="snipcart-checkout">
+                        View cart
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container layout__content">
+        <header>
+            <h1>
+                {{ title }}
+            </h1>
+        </header>
+
+        <main class="layout__content">
+            <ng-content></ng-content>
+        </main>
+    </div>
+
+    <nav style="background-color: #34495E;">
+        <footer class="nav-wrapper container layout__footer">
+            Made with <a href="https://scully.io">Scully</a> & <a href="https://angular.io/">Angular</a>.
+        </footer>
+    </nav>
+</div>

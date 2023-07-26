@@ -1,0 +1,3 @@
+Folder "./scully" doesn't seem to contain custom plugins
+(You can skip this, or any future question by using the --noPrompt flag)
+No configuration for route "/products/:productId" found. Skipping
